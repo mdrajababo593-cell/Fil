@@ -5,7 +5,7 @@ import telebot
 from telebot import types
 
 # ================= কনফিগারেশন =================
-BOT_TOKEN = "8704973744:AAGL6pV60ijsII7fLTjZ3vEubUsVWnl097M"   # BotFather থেকে পাওয়া টোকেন
+BOT_TOKEN = "8704973744:"   # BotFather থেকে পাওয়া টোকেন
 ADMIN_ID = 6805684286                # আপনার টেলিগ্রাম আইডি (সংখ্যায়)
 
 bot = telebot.TeleBot(BOT_TOKEN, parse_mode="HTML", threaded=True, num_threads=40)
